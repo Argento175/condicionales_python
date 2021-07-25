@@ -33,3 +33,8 @@ contenido.
 
 print('Ejercicios de práctica con cadenas')
 # Empezar aquí la resolución del ejercicio
+palabra_1 = str(input("Ingresá una palabra cualquiera:\n"))
+palabra_2 = str(input("Ingresá otra palabra cualquiera:\n"))
+palabra_3 = str(input("Ingresá una última palabra:\n"))
+
+print(ord(palabra_1[0]),ord(palabra_2[0]),ord(palabra_3[0]))
